@@ -1,4 +1,5 @@
-document.getElementById('change-color').addEventListener('click',function(){
+ 
+ document.getElementById('change-color').addEventListener('click',function(){
    const button=document.getElementById('change-color');
    let r=Math.floor(Math.random()*256);
    let g=Math.floor(Math.random()*256);
@@ -8,6 +9,13 @@ document.getElementById('change-color').addEventListener('click',function(){
   document.body.style.background=getRendomcolor;
 });
 
-document.getElementById('change-page')
+document.getElementById('change-page').addEventListener('click',function(){
+    console.log('bai fot')
+    window.location.href="./question.html";
+
+});
+
+
+
 
 
