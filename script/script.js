@@ -16,6 +16,3 @@ document.getElementById('change-page').addEventListener('click',function(){
 });
 
 
-
-
-
